@@ -1,0 +1,27 @@
+page-home {
+  .Domains {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Domain {
+    text-align: center;
+    padding: 8px;
+    min-height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Domain__icon {
+    font-size: 4.5rem;
+    color: #fff;
+  }
+
+  .Domain__title {
+    color: #fff;
+    font-size: 1.7rem;
+  }
+}
+
+

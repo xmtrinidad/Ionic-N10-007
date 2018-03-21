@@ -1,0 +1,12 @@
+<div class="Domains">
+  <div
+    [ngStyle]="{'background-color': domain.color}"
+    *ngFor="let domain of domains"
+    class="Domain"
+    (click)="onDomainClick(domain)">
+    <div class="Domain__icon">
+      <i [class]="domain.icon"></i>
+    </div>
+    <h5 class="Domain__title">{{domain.title}}</h5>
+  </div>
+</div>
