@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Domain } from '../../models/domain';
-import { Objective, Section } from '../../models/section';
+import { Section } from '../../models/section';
+import { Objective } from '../../models/objective';
 import { DomainService } from '../../services/domain.service';
+import { ObjectiveDetailPage } from '../objective-detail/objective-detail';
+
 
 @IonicPage()
 @Component({
@@ -12,6 +15,7 @@ import { DomainService } from '../../services/domain.service';
 export class DomainPage implements OnInit{
   domain: Domain;
   section: Section;
+  objectiveDetailPage = ObjectiveDetailPage;
 
   constructor(
     private domainServie: DomainService,
@@ -24,7 +28,7 @@ export class DomainPage implements OnInit{
     this.section = this.domainServie.getSection(this.domain);
   }
 
-  objectiveSelected(objective: Objective) {
-    console.log(objective);
+  objectiveSelected(objective: Objective, color: string) {
+    this.navCtrl.push(ObjectiveDetailPage, {objective: objective, color: color});
   }
 }

@@ -17,7 +17,9 @@
   </div>
   <h2 [ngStyle]="{'color': domain.color}" class="Domain__title">{{domain.title}}</h2>
   <ion-list text-wrap>
-    <button ion-item *ngFor="let objective of section.objectives"   (click)="objectiveSelected(objective)">
+    <button
+      ion-item *ngFor="let objective of section.objectives"
+      (click)="objectiveSelected(objective, domain.color)">
       <span
         class="Domain__section-number"
         [ngStyle]="{'background-color': domain.color}"

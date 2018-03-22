@@ -11,13 +11,14 @@ import { DomainPage } from '../pages/domain/domain';
 import { HomeHeaderComponent } from '../pages/home/home-header/home-header';
 import { DomainsComponent } from '../pages/home/domains/domains';
 import { DomainService } from '../services/domain.service';
-
+import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     DomainPage,
+    ObjectiveDetailPage,
     HomeHeaderComponent,
     DomainsComponent,
   ],
@@ -30,6 +31,7 @@ import { DomainService } from '../services/domain.service';
     MyApp,
     HomePage,
     DomainPage,
+    ObjectiveDetailPage,
     HomeHeaderComponent,
     DomainsComponent,
   ],
