@@ -35,9 +35,17 @@ page-objective-detail {
     font-weight: bold;
   }
 
- ion-item {
+  ion-item-divider {
+    margin: 10px 0;
+  }
+
+  ion-item {
     font-size: .75rem;
   }
 
+  .bullet-title {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
 
 }
