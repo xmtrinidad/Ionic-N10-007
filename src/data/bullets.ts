@@ -4,7 +4,7 @@ export const BULLETS: Bullet[] = [
   {
     objectiveNumber: 1.1,
     bullets: [
-      { title: 'Explain the purposes and uses of ports and protocols.',
+      { title: 'Protocols and ports',
         subBullets: [
           'SSH 22', 'DNS 53', 'SMTP 25', 'SFTP 22', 'FTP 20, 21', 'TFTP 69', 'TELNET 23',
           'DHCP 67, 68', 'HTTP 80', 'HTTPS 443', 'SNMP 161', 'RDP 3389', 'NTP 123',

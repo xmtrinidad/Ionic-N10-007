@@ -16,6 +16,22 @@
     <span [ngStyle]="{'background-color': color}" class="Objective-detail__number">{{ objective.sectionNumber }}</span>
     <p class="Objective-detail__title">{{ objective.title }}</p>
   </div>
+  <ion-card *ngFor="let bullet of bullets.bullets">
+    <ion-card-header text-wrap>
+      {{bullet.title}}
+    </ion-card-header>
+    <ion-list>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-6 *ngFor="let subBullet of bullet.subBullets">
+            <ion-item text-wrap>
+            - {{ subBullet }}
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-list>
+  </ion-card>
 </ion-content>
 
 <ion-footer>

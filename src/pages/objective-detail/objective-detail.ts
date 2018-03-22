@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Objective } from '../../models/objective';
+import { DomainService } from '../../services/domain.service';
+import { Bullet } from '../../models/bullet';
 
 
 @Component({
@@ -10,14 +12,23 @@ import { Objective } from '../../models/objective';
 export class ObjectiveDetailPage implements OnInit {
   objective: Objective;
   color: string;
+  bullets: Bullet;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    private domainService: DomainService,
+    public navCtrl: NavController,
+    public navParams: NavParams) {
   }
 
   ngOnInit() {
-    console.log(this.navParams.data);
+    this.getObjectiveInfo();
+    console.log(this.bullets);
+  }
+
+  getObjectiveInfo() {
     this.objective = this.navParams.data.objective;
     this.color = this.navParams.data.color;
+    this.bullets = this.domainService.getBullets(this.objective.sectionNumber);
   }
 
   onHomeClick() {
