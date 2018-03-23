@@ -175,7 +175,6 @@ const DOMAIN_ONE_EIGHT: Bullet = {
     { title: 'IPAM'},
   ]
 };
-
 const CONCEPTS: Bullet[] = [
   DOMAIN_ONE_ONE, DOMAIN_ONE_TWO, DOMAIN_ONE_THREE, DOMAIN_ONE_FOUR,
   DOMAIN_ONE_FIVE, DOMAIN_ONE_SIX, DOMAIN_ONE_SEVEN, DOMAIN_ONE_EIGHT
@@ -231,40 +230,524 @@ const DOMAIN_TWO_ONE: Bullet = {
     }
   ]
 };
-
 const DOMAIN_TWO_TWO: Bullet = {
   objectiveNumber: 2.2,
   bullets: [
-    { title: '', subBullets: [] }
+    { title: 'Firewall'},
+    { title: 'Router'},
+    { title: 'Switch'},
+    { title: 'Hub'},
+    { title: 'Bridge'},
+    { title: 'Modems'},
+    { title: 'Wireless access point'},
+    { title: 'Media converter'},
+    { title: 'Wireless range extender'},
+    { title: 'VoIP endpoint'},
   ]
 };
-
 const DOMAIN_TWO_THREE: Bullet = {
   objectiveNumber: 2.3,
   bullets: [
-    { title: '', subBullets: [] }
+    { title: 'Multilayer switch'},
+    { title: 'Wireless controller'},
+    { title: 'Load balancer'},
+    { title: 'IDS/IPS'},
+    { title: 'Proxy server'},
+    { title: 'VPN concentrator'},
+    { title: 'AAA/RADIUS server'},
+    { title: 'UTM appliance'},
+    { title: 'NGFW/Layer 7 firewall'},
+    { title: 'VoIP PBX'},
+    { title: 'VoIP gateway'},
+    { title: 'Content filter'},
   ]
 };
-
 const DOMAIN_TWO_FOUR: Bullet = {
   objectiveNumber: 2.4,
   bullets: [
-    { title: '', subBullets: [] }
+    {
+      title: 'Virtual networking components',
+      subBullets: [
+        'Virtual switch', 'Virtual firewall', 'Virtual NIC',
+        'Virtual router', 'Hypervisor'
+      ]
+    },
+    {
+      title: 'Network storage types',
+      subBullets: [
+        'NAS', 'SAN'
+      ]
+    },
+    {
+      title: 'Connection type',
+      subBullets: [
+        'FCoE',
+        'Fibre Channel',
+        'iSCSI',
+        'InfiniBand'
+      ]
+    },
+    { title: 'Jumbo frame' }
   ]
 };
-
 const DOMAIN_TWO_FIVE: Bullet = {
   objectiveNumber: 2.5,
   bullets: [
-    { title: '', subBullets: [] }
+    {
+      title: 'Service type',
+      subBullets: [
+        'ISDN', 'T1/T3, E1/E3', 'OC-3 - OC-192', 'DSL, Dial-up, PRI',
+        'Metropolitan Ethernet', 'Cable broadband'
+      ]
+    },
+    {
+      title: 'Transmission mediums',
+      subBullets: [
+        'Satellite, Copper', 'Fiber, Wireless'
+      ]
+    },
+    {
+      title: 'Characteristics of service',
+      subBullets: [
+        'MPLS, ATM', 'Frame relay', 'PPPoE, PPP', 'DMVPN, SIP trunk'
+      ]
+    },
+    {
+      title: 'Termination',
+      subBullets: [
+        'Demarcation point', 'CSU/DSU', 'Smart jack'
+      ]
+    }
   ]
 };
-
 const INFRASTRUCTURE: Bullet[] = [
   DOMAIN_TWO_ONE, DOMAIN_TWO_TWO, DOMAIN_TWO_THREE,
   DOMAIN_TWO_FOUR, DOMAIN_TWO_FIVE
 ];
 
-export const BULLETS: Bullet[] = [ ...CONCEPTS, ...INFRASTRUCTURE ];
+/**
+ * DOMAIN: 3.0 Operations
+ */
+const DOMAIN_THREE_ONE: Bullet = {
+  objectiveNumber: 3.1,
+  bullets: [
+    { title: 'Diagram symbols'},
+    { title: 'Standard operating procedures'},
+    { title: 'Logical vs. physical diagrams'},
+    { title: 'Rack diagrams'},
+    { title: 'Change management documentation'},
+    { title: 'Wiring and port locations'},
+    { title: 'IDF/MDF documentation'},
+    { title: 'Labeling'},
+    { title: 'Networking configuration'},
+    { title: 'Performance baselines'},
+    { title: 'Inventory management'},
+  ]
+};
+const DOMAIN_THREE_TWO: Bullet = {
+  objectiveNumber: 3.2,
+  bullets: [
+    {
+      title: 'Availability concepts',
+      subBullets: [
+        'Fault tolerance', 'High availability', 'Load balancing',
+        'NIC teaming', 'Port aggregation', 'Clustering'
+      ]
+    },
+    {
+      title: 'Power management',
+      subBullets: [
+        'Battery backups/UPS', 'Power generators', 'Dual power supplies',
+        'Redundant circuits'
+      ]
+    },
+    {
+      title: 'Recovery',
+      subBullets: [
+        'Cold, Warm, Hot sites', 'Backups: Full, differential, incremental',
+        'Snapshots'
+      ]
+    },
+    { title: 'MTT'},
+    { title: 'MTBF'},
+    { title: 'SLA requirements'}
+  ]
+};
+const DOMAIN_THREE_THREE: Bullet = {
+  objectiveNumber: 3.3,
+  bullets: [
+    {
+      title: 'Processes',
+      subBullets: [
+        'Log reviewing', 'Port scanning', 'Vulnerability scanning',
+        'Patch management: Rollback', 'Reviewing baselines',
+        'Packet/traffic analysis'
+      ]
+    },
+    {
+      title: 'Event management',
+      subBullets: [
+        'Notifications', 'Alerts', 'SIEM'
+      ]
+    },
+    {
+      title: 'SNMP monitors',
+      subBullets: [
+        'MIB'
+      ]
+    },
+    {
+      title: 'Metrics',
+      subBullets: [
+        'Error rate', 'Utilization', 'Packet drops',
+        'Bandwidth/throughput'
+      ]
+    }
+  ]
+};
+const DOMAIN_THREE_FOUR: Bullet = {
+  objectiveNumber: 3.4,
+  bullets: [
+    {
+      title: 'VPN',
+      subBullets: [
+        'IPSec, SSL/TLS/DTLS', 'Site-to-site, Client-to-site'
+      ]
+    },
+    {
+      title: 'Remote file access',
+      subBullets: [
+        'FTP/FTPS', 'SFTP, TFTP'
+      ]
+    },
+    {
+      title: 'Out-of-band management',
+      subBullets: [
+        'Modem', 'Console router'
+      ]
+    },
+    { title: 'HTTPS/management URL' },
+    { title: 'RDP' },
+    { title: 'SSH' },
+    { title: 'VNC' },
+    { title: 'Telnet' },
+  ]
+};
+const DOMAIN_THREE_FIVE: Bullet = {
+  objectiveNumber: 3.5,
+  bullets: [
+    { title: 'Privileged user agreement' },
+    { title: 'Password policy' },
+    { title: 'On-boarding/off-boarding' },
+    { title: 'Licensing restrictions' },
+    { title: 'International export controls' },
+    { title: 'Data loss prevention' },
+    { title: 'Remote access policies' },
+    { title: 'Incident response policies' },
+    { title: 'BYOD' },
+    { title: 'AUP' },
+    { title: 'NDA' },
+    { title: 'System life-cycle', subBullets: [ 'Asset disposal' ] },
+    { title: 'Safety procedures'}
+  ]
+};
+const OPERATIONS: Bullet[] = [
+  DOMAIN_THREE_ONE, DOMAIN_THREE_TWO, DOMAIN_THREE_THREE,
+  DOMAIN_THREE_FOUR, DOMAIN_THREE_FIVE
+];
+
+/**
+ * DOMAIN: 4.0 Security
+ */
+const DOMAIN_FOUR_ONE: Bullet = {
+  objectiveNumber: 4.1,
+  bullets: [
+    {
+      title: 'Detection',
+      subBullets: [
+        'Motion detection', 'Video surveillance',
+        'Asset tracking tags', 'Tamper detection'
+      ]
+    },
+    {
+      title: 'Prevention',
+      subBullets: [
+        'Badges, Biometrics', 'Smart cards',
+        'Key fob, Locks'
+      ]
+    }
+  ]
+};
+const DOMAIN_FOUR_TWO: Bullet = {
+  objectiveNumber: 4.2,
+  bullets: [
+    {
+      title: 'Authorization, authentication, and Accounting',
+      subBullets: [
+        'RADIUS, TACACS+', 'Kerberos', 'Single sign-on',
+        'Local authentication', 'LDAP', 'Certificates',
+        'Auditing and logging'
+      ]
+    },
+    {
+      title: 'Multifactor authentication',
+      subBullets: [
+        'Something you know', 'Something you have',
+        'Something you are', 'Somewhere you are',
+        'Something you do'
+      ]
+    },
+    {
+      title: 'Access control',
+      subBullets: [
+        '802.1X, NAC', 'Port security', 'MAC filtering',
+        'Captive portal', 'Access control lists'
+      ]
+    }
+  ]
+};
+const DOMAIN_FOUR_THREE: Bullet = {
+  objectiveNumber: 4.3,
+  bullets: [
+    { title: 'WPA, WPA2' },
+    { title: 'TKIP-RC4' },
+    { title: 'CCMP-AES' },
+    { title: 'Geofencing' },
+    {
+      title: 'Authentication and authorization',
+      subBullets: [
+        'EAP/PEAP: EAP-FAST, EAP-TLS', 'Shared to open',
+        'Preshared key', 'MAC filtering'
+      ]
+    }
+  ]
+};
+const DOMAIN_FOUR_FOUR: Bullet = {
+  objectiveNumber: 4.4,
+  bullets: [
+    {
+      title: 'DoS',
+      subBullets: [
+        'Reflective', 'Amplified', 'Distributed'
+      ]
+    },
+    { title: 'Social engineering' },
+    { title: 'Insider threat' },
+    { title: 'Logic bomb' },
+    { title: 'Rogue access point' },
+    { title: 'Evil twin' },
+    { title: 'War driving' },
+    { title: 'Phishing' },
+    { title: 'Ransomware' },
+    { title: 'DNS/ARP poisoning' },
+    { title: 'Spoofing' },
+    { title: 'Deauthentication' },
+    { title: 'Brute force' },
+    { title: 'VLAN hopping' },
+    { title: 'Man-in-the-middle' },
+    { title: 'Exploits vs vulnerabilities' },
+  ]
+};
+const DOMAIN_FOUR_FIVE: Bullet = {
+  objectiveNumber: 4.5,
+  bullets: [
+    { title: 'Changing default credentials' },
+    { title: 'Avoiding common passwords' },
+    { title: 'Upgrading firmware' },
+    { title: 'Patching and updates' },
+    { title: 'File hashing' },
+    { title: 'Disabling unnecessary services' },
+    { title: 'Using secure protocols' },
+    { title: 'Generating new keys' },
+    {
+      title: 'Disabling unused ports',
+      subBullets: [
+        'IP ports', 'Device ports (physical and virtual)'
+      ]
+    }
+  ]
+};
+const DOMAIN_FOUR_SIX: Bullet = {
+  objectiveNumber: 4.6,
+  bullets: [
+    { title: 'Signature management' },
+    { title: 'Device hardening' },
+    { title: 'Change native VLAN' },
+    {
+      title: 'Switch port protection',
+      subBullets: [
+        'Spanning tree', 'Flood guard', 'BPDU guard',
+        'Root guard', 'DHCP snooping'
+      ]
+    },
+    {
+      title: 'Network segmentation',
+      subBullets: [
+        'DMZ, VLAN'
+      ]
+    },
+    { title: 'Privileged user account' },
+    { title: 'File integrity monitoring' },
+    { title: 'Role separation' },
+    { title: 'Restricting access via ACLs' },
+    { title: 'Honeypot/honeynet' },
+    { title: 'Penetration testing' },
+  ]
+};
+const SECURITY: Bullet[] = [
+  DOMAIN_FOUR_ONE, DOMAIN_FOUR_TWO, DOMAIN_FOUR_THREE,
+  DOMAIN_FOUR_FOUR, DOMAIN_FOUR_FIVE, DOMAIN_FOUR_SIX
+];
+
+const DOMAIN_FIVE_ONE: Bullet = {
+  objectiveNumber: 5.1,
+  bullets: [
+    {
+      title: 'Identify the problem',
+      subBullets: [
+        'Gather information', 'Duplicate if possible',
+        'Question users', 'Identify symptoms',
+        'Determine if anything has changed',
+        'Approach multiple problems differently'
+      ]
+    },
+    {
+      title: 'Establish a theory of probable cause',
+      subBullets: [
+        'Question the obvious',
+        'Consider multiple approaches',
+      ]
+    },
+    {
+      title: 'Test the theory to determine the cause',
+      subBullets: [
+        'Once confirmed, determine next steps',
+        'Establish new theories or escalate'
+      ]
+    },
+    {
+      title: 'Establish a plan of action' ,
+      subBullets: [
+        'Identify potential effects'
+      ]
+    },
+    { title: 'Implement the solution or escalate' },
+    {
+      title: 'Verify full system functionality',
+      subBullets: [
+        'If applicable, implement preventive measures'
+      ]
+    },
+    { title: 'Document findings, actions and outcomes'}
+  ]
+};
+
+const DOMAIN_FIVE_TWO: Bullet = {
+  objectiveNumber: 5.2,
+  bullets: [
+    {
+      title: 'Hardware tools',
+      subBullets: [
+        'Crimper, Cable tester', 'Punchdown tool',
+        'OTDR, Light meter', 'Tone generator', 'Loopback adapter',
+        'Multimeter', 'Spectrum analyzer'
+      ]
+    },
+    {
+      title: 'Software tools',
+      subBullets: [
+        'Packet sniffer, Port scanner',
+        'Protocol analyzer', 'WiFi analyzer',
+        'Bandwidth speed tester'
+      ]
+    },
+    {
+      title: 'Command line',
+      subBullets: [
+        'ipconfig, ifconfig', 'iptables, netstat',
+        'tcpdump, pathping', 'nmap, route', 'arp, dig'
+      ]
+    }
+  ]
+};
+
+const DOMAIN_FIVE_THREE: Bullet = {
+  objectiveNumber: 5.3,
+  bullets: [
+    { title: 'Attenuation' },
+    { title: 'Latency' },
+    { title: 'Jitter' },
+    { title: 'Crosstalk' },
+    { title: 'EMI' },
+    { title: 'Open/short' },
+    { title: 'Incorrect pin-out' },
+    { title: 'Incorrect cable type' },
+    { title: 'Bad port' },
+    { title: 'Transceiver mismatch' },
+    { title: 'TX/RX reverse' },
+    { title: 'Duplex/speed mismatch' },
+    { title: 'Damaged cables' },
+    { title: 'Bent pins' },
+    { title: 'Bottlenecks' },
+    { title: 'VLAN mismatch' },
+    { title: 'Network connection LED status indicators' },
+  ]
+};
+
+const DOMAIN_FIVE_FOUR: Bullet = {
+  objectiveNumber: 5.4,
+  bullets: [
+    { title: 'Reflection/Refraction' },
+    { title: 'Absorption' },
+    { title: 'Latency' },
+    { title: 'Jitter' },
+    { title: 'Attenuation' },
+    { title: 'Incorrect antenna type' },
+    { title: 'Interference' },
+    { title: 'Incorrect antenna placement' },
+    { title: 'Channel overlap' },
+    { title: 'Overcapacity' },
+    { title: 'Distance limitations' },
+    { title: 'Frequency mismatch' },
+    { title: 'Wrong SSID' },
+    { title: 'Wrong passphrase' },
+    { title: 'Security type mismatch' },
+    { title: 'Power levels' },
+    { title: 'Signal-to-noise ratio' },
+  ]
+};
+
+const DOMAIN_FIVE_FIVE: Bullet = {
+  objectiveNumber: 5.5,
+  bullets: [
+    { title: 'Names not resolving' },
+    { title: 'Incorrect gateway/netmask' },
+    { title: 'Duplicate IP addresses' },
+    { title: 'Duplicate MAC addresses' },
+    { title: 'Expired IP addresses' },
+    { title: 'Rogue DHCP server' },
+    { title: 'Untrusted SSL certificate' },
+    { title: 'Incorrect time' },
+    { title: 'Exhausted DHCP scope' },
+    { title: 'Blocked TCP/UDP ports' },
+    { title: 'Incorrect host-based firewall settings' },
+    { title: 'Incorrect ACL settings' },
+    { title: 'Unresponsive service' },
+    { title: 'Hardware failure' },
+  ]
+};
+
+const TROUBLESHOOTING: Bullet[] = [
+  DOMAIN_FIVE_ONE, DOMAIN_FIVE_TWO, DOMAIN_FIVE_THREE,
+  DOMAIN_FIVE_FOUR, DOMAIN_FIVE_FIVE
+];
+
+export const BULLETS: Bullet[] = [
+  ...CONCEPTS,
+  ...INFRASTRUCTURE,
+  ...OPERATIONS,
+  ...SECURITY,
+  ...TROUBLESHOOTING
+];
 
 
