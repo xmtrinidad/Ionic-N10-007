@@ -18,7 +18,7 @@ export class ResourcesPage {
   }
 
   ionViewDidLoad() {
-    this.resources = this.navParams.data;
+    this.resources = this.navParams.get('resources');
   }
 
   onModalClose() {

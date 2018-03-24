@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonicPage, ModalController, NavController, NavParams } from 'ionic-angular';
+import { ModalController, NavController, NavParams } from 'ionic-angular';
 import { Objective } from '../../models/objective';
 import { DomainService } from '../../services/domain.service';
 import { Bullet } from '../../models/bullet';
@@ -44,7 +44,7 @@ export class ObjectiveDetailPage implements OnInit {
   onResourcesClick() {
     const objective = this.objective.sectionNumber;
     const resources: Resource[] = this.resourceService.getResources(objective);
-    const modal = this.modalCtrl.create(ResourcesPage, resources);
+    const modal = this.modalCtrl.create(ResourcesPage, {resources: resources});
     modal.present();
   }
 }
