@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -9,11 +10,15 @@ import { HomePage } from '../pages/home/home';
 import { DomainPage } from '../pages/domain/domain';
 import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail';
 import { ResourcesPage } from '../pages/resources/resources';
+import { AcronymsPage } from '../pages/acronyms/acronyms';
 
 import { HomeHeaderComponent } from '../pages/home/home-header/home-header';
 import { DomainsComponent } from '../pages/home/domains/domains';
 import { DomainService } from '../services/domain.service';
 import { ResourceService } from '../services/resource.service';
+import { AcronymService } from '../services/acronym.service';
+
+
 
 
 @NgModule({
@@ -25,10 +30,12 @@ import { ResourceService } from '../services/resource.service';
     HomeHeaderComponent,
     DomainsComponent,
     ResourcesPage,
+    AcronymsPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -38,14 +45,16 @@ import { ResourceService } from '../services/resource.service';
     ObjectiveDetailPage,
     HomeHeaderComponent,
     DomainsComponent,
-    ResourcesPage
+    ResourcesPage,
+    AcronymsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DomainService,
-    ResourceService
+    ResourceService,
+    AcronymService
   ]
 })
 export class AppModule {}

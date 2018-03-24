@@ -9,8 +9,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content *ngIf="!resources">
-  No resources available
+<ion-content *ngIf="!resources" padding>
+  <div class="no-resources" text-center>
+    <ion-icon name="archive"></ion-icon>
+    <p>No resources currently available</p>
+  </div>
+  <button (click)="viewCtrl.dismiss()" ion-button full>Back to Objective List</button>
 </ion-content>
 
 <ion-content *ngIf="resources" padding>
