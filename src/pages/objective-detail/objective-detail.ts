@@ -13,6 +13,7 @@ export class ObjectiveDetailPage implements OnInit {
   objective: Objective;
   color: string;
   bullets: Bullet;
+  domainTitle: string;
 
   constructor(
     private domainService: DomainService,
@@ -22,10 +23,11 @@ export class ObjectiveDetailPage implements OnInit {
 
   ngOnInit() {
     this.getObjectiveInfo();
-    console.log(this.bullets);
   }
 
   getObjectiveInfo() {
+    this.domainTitle = this.navParams.data.domain;
+    console.log(this.domainTitle);
     this.objective = this.navParams.data.objective;
     this.color = this.navParams.data.color;
     this.bullets = this.domainService.getBullets(this.objective.sectionNumber);

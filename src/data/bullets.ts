@@ -641,7 +641,6 @@ const DOMAIN_FIVE_ONE: Bullet = {
     { title: 'Document findings, actions and outcomes'}
   ]
 };
-
 const DOMAIN_FIVE_TWO: Bullet = {
   objectiveNumber: 5.2,
   bullets: [
@@ -670,7 +669,6 @@ const DOMAIN_FIVE_TWO: Bullet = {
     }
   ]
 };
-
 const DOMAIN_FIVE_THREE: Bullet = {
   objectiveNumber: 5.3,
   bullets: [
@@ -693,7 +691,6 @@ const DOMAIN_FIVE_THREE: Bullet = {
     { title: 'Network connection LED status indicators' },
   ]
 };
-
 const DOMAIN_FIVE_FOUR: Bullet = {
   objectiveNumber: 5.4,
   bullets: [
@@ -716,7 +713,6 @@ const DOMAIN_FIVE_FOUR: Bullet = {
     { title: 'Signal-to-noise ratio' },
   ]
 };
-
 const DOMAIN_FIVE_FIVE: Bullet = {
   objectiveNumber: 5.5,
   bullets: [
@@ -736,7 +732,6 @@ const DOMAIN_FIVE_FIVE: Bullet = {
     { title: 'Hardware failure' },
   ]
 };
-
 const TROUBLESHOOTING: Bullet[] = [
   DOMAIN_FIVE_ONE, DOMAIN_FIVE_TWO, DOMAIN_FIVE_THREE,
   DOMAIN_FIVE_FOUR, DOMAIN_FIVE_FIVE
