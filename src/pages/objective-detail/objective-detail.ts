@@ -4,6 +4,8 @@ import { Objective } from '../../models/objective';
 import { DomainService } from '../../services/domain.service';
 import { Bullet } from '../../models/bullet';
 import { ResourcesPage } from '../resources/resources';
+import { ResourceService } from '../../services/resource.service';
+import { Resource } from '../../models/resource';
 
 
 @Component({
@@ -19,6 +21,7 @@ export class ObjectiveDetailPage implements OnInit {
   constructor(
     private modalCtrl: ModalController,
     private domainService: DomainService,
+    private resourceService: ResourceService,
     public navCtrl: NavController,
     public navParams: NavParams) {
   }
@@ -39,7 +42,9 @@ export class ObjectiveDetailPage implements OnInit {
   }
 
   onResourcesClick() {
-    const modal = this.modalCtrl.create(ResourcesPage);
+    const objective = this.objective.sectionNumber;
+    const resources: Resource[] = this.resourceService.getResources(objective);
+    const modal = this.modalCtrl.create(ResourcesPage, resources);
     modal.present();
   }
 }

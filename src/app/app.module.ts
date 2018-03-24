@@ -13,6 +13,7 @@ import { ResourcesPage } from '../pages/resources/resources';
 import { HomeHeaderComponent } from '../pages/home/home-header/home-header';
 import { DomainsComponent } from '../pages/home/domains/domains';
 import { DomainService } from '../services/domain.service';
+import { ResourceService } from '../services/resource.service';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { DomainService } from '../services/domain.service';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    DomainService
+    DomainService,
+    ResourceService
   ]
 })
 export class AppModule {}

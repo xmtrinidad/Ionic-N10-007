@@ -1,36 +1,31 @@
-<!--
-  Generated template for the ResourcesPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
   <ion-navbar>
     <ion-title>Resources</ion-title>
     <ion-buttons left>
-      <button ion-button icon-only (click)="viewCtrl.dismiss()" class="my-style-for-modal">
+      <button ion-button icon-only (click)="onModalClose()" class="my-style-for-modal">
         <ion-icon name="close"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
+<ion-content *ngIf="!resources">
+  No resources available
+</ion-content>
 
-<ion-content padding>
-  <ion-card>
-    <img src="https://img.youtube.com/vi/9qFZh29JhnA/mqdefault.jpg"/>
+<ion-content *ngIf="resources" padding>
+  <ion-card *ngFor="let resource of resources">
+    <img [src]="resource.img"/>
     <ion-card-header>
-      Introduction to IP
+      {{ resource.title }}
     </ion-card-header>
     <ion-card-content>
-      <p>We rely on IP as the fundamental protocol on today’s networks. In this video, you’ll learn about the fundamentals of IP, TCP, UDP, and ICMP.</p>
+      <p>{{ resource.description }}</p>
     </ion-card-content>
-    <button ion-button icon-left clear>
+    <a [href]="resource.link" ion-button icon-left clear>
       <ion-icon name="eye"></ion-icon>
       <div>Watch</div>
-    </button>
+    </a>
   </ion-card>
   <button (click)="viewCtrl.dismiss()" ion-button full>Back to Objective List</button>
 </ion-content>

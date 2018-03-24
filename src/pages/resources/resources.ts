@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
-
-/**
- * Generated class for the ResourcesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { Resource } from '../../models/resource';
 
 @IonicPage()
 @Component({
@@ -15,6 +9,8 @@ import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angul
 })
 export class ResourcesPage {
 
+  resources: Resource[];
+
   constructor(
     private viewCtrl: ViewController,
     public navCtrl: NavController,
@@ -22,7 +18,10 @@ export class ResourcesPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ResourcesPage');
+    this.resources = this.navParams.data;
   }
 
+  onModalClose() {
+    this.viewCtrl.dismiss()
+  }
 }
