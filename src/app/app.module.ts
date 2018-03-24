@@ -7,11 +7,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { DomainPage } from '../pages/domain/domain';
+import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail';
+import { ResourcesPage } from '../pages/resources/resources';
 
 import { HomeHeaderComponent } from '../pages/home/home-header/home-header';
 import { DomainsComponent } from '../pages/home/domains/domains';
 import { DomainService } from '../services/domain.service';
-import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail'
     ObjectiveDetailPage,
     HomeHeaderComponent,
     DomainsComponent,
+    ResourcesPage,
   ],
   imports: [
     BrowserModule,
@@ -34,6 +37,7 @@ import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail'
     ObjectiveDetailPage,
     HomeHeaderComponent,
     DomainsComponent,
+    ResourcesPage
   ],
   providers: [
     StatusBar,

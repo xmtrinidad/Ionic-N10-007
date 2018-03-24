@@ -7,12 +7,30 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>resources</ion-title>
+    <ion-title>Resources</ion-title>
+    <ion-buttons left>
+      <button ion-button icon-only (click)="viewCtrl.dismiss()" class="my-style-for-modal">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <ion-card>
+    <img src="https://img.youtube.com/vi/9qFZh29JhnA/mqdefault.jpg"/>
+    <ion-card-header>
+      Introduction to IP
+    </ion-card-header>
+    <ion-card-content>
+      <p>We rely on IP as the fundamental protocol on today’s networks. In this video, you’ll learn about the fundamentals of IP, TCP, UDP, and ICMP.</p>
+    </ion-card-content>
+    <button ion-button icon-left clear>
+      <ion-icon name="eye"></ion-icon>
+      <div>Watch</div>
+    </button>
+  </ion-card>
+  <button (click)="viewCtrl.dismiss()" ion-button full>Back to Objective List</button>
 </ion-content>

@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, ModalController, NavController, NavParams } from 'ionic-angular';
 import { Objective } from '../../models/objective';
 import { DomainService } from '../../services/domain.service';
 import { Bullet } from '../../models/bullet';
+import { ResourcesPage } from '../resources/resources';
 
 
 @Component({
@@ -16,6 +17,7 @@ export class ObjectiveDetailPage implements OnInit {
   domainTitle: string;
 
   constructor(
+    private modalCtrl: ModalController,
     private domainService: DomainService,
     public navCtrl: NavController,
     public navParams: NavParams) {
@@ -27,7 +29,6 @@ export class ObjectiveDetailPage implements OnInit {
 
   getObjectiveInfo() {
     this.domainTitle = this.navParams.data.domain;
-    console.log(this.domainTitle);
     this.objective = this.navParams.data.objective;
     this.color = this.navParams.data.color;
     this.bullets = this.domainService.getBullets(this.objective.sectionNumber);
@@ -35,5 +36,10 @@ export class ObjectiveDetailPage implements OnInit {
 
   onHomeClick() {
     this.navCtrl.popToRoot();
+  }
+
+  onResourcesClick() {
+    const modal = this.modalCtrl.create(ResourcesPage);
+    modal.present();
   }
 }
