@@ -11,12 +11,14 @@ import { DomainPage } from '../pages/domain/domain';
 import { ObjectiveDetailPage } from '../pages/objective-detail/objective-detail';
 import { ResourcesPage } from '../pages/resources/resources';
 import { AcronymsPage } from '../pages/acronyms/acronyms';
+import { SortPopoverPage } from '../pages/sort-popover/sort-popover';
 
 import { HomeHeaderComponent } from '../pages/home/home-header/home-header';
 import { DomainsComponent } from '../pages/home/domains/domains';
 import { DomainService } from '../services/domain.service';
 import { ResourceService } from '../services/resource.service';
 import { AcronymService } from '../services/acronym.service';
+
 
 
 
@@ -30,7 +32,8 @@ import { AcronymService } from '../services/acronym.service';
     HomeHeaderComponent,
     DomainsComponent,
     ResourcesPage,
-    AcronymsPage
+    AcronymsPage,
+    SortPopoverPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +49,8 @@ import { AcronymService } from '../services/acronym.service';
     HomeHeaderComponent,
     DomainsComponent,
     ResourcesPage,
-    AcronymsPage
+    AcronymsPage,
+    SortPopoverPage
   ],
   providers: [
     StatusBar,
