@@ -15,9 +15,7 @@ import { ViewController } from 'ionic-angular';
   `
 })
 export class SortPopoverPage {
-  sortOptions = [
-    'Ascending', 'Descending', 'A-I', 'J-R', 'S-Z', 'Show All'
-  ];
+  sortOptions = [ 'Ascending', 'Descending' ];
 
   constructor(public viewCtrl: ViewController) {
   }

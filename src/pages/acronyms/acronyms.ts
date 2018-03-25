@@ -9,6 +9,7 @@ import { SortPopoverPage } from '../sort-popover/sort-popover';
 })
 export class AcronymsPage implements OnInit{
   acronyms: Acronym[] = [];
+  sort = 'Ascending';
 
   constructor(
     private popoverCtrl: PopoverController,
@@ -28,29 +29,18 @@ export class AcronymsPage implements OnInit{
     popover.onDidDismiss((sort) => this.sortData(sort));
   }
 
-  sortData(sort: string) {
-    switch (sort) {
-      case 'Ascending':
-        console.log('Ascending sort chosen');
-        break;
-      case 'Descending':
-        console.log('Descending sort chosen');
-        break;
-      case 'A-I':
-        console.log('Show A-I');
-        break;
-      case 'J-R':
-        console.log('Show J-R');
-        break;
-      case 'S-Z':
-        console.log('Show S-Z');
-        break;
-      case 'Show All':
-        console.log('Show All acronyms');
-        break;
-      default:
-        console.log('Do nothing, popover dismissed by backdrop clicked');
-    }
+  sortData(sortSelected: string) {
+    // Do nothing if same sort
+    if (sortSelected === this.sort) return;
+    this.sort = sortSelected;
+    this.acronyms.sort((a, b) => {
+      // Sort ascending
+      if (sortSelected === 'Ascending') {
+        return a.acronym.localeCompare(b.acronym);
+      } else {
+        return b.acronym.localeCompare(a.acronym);
+      }
+    });
   }
 
   /**
