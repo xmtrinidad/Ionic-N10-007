@@ -1,11 +1,14 @@
 page-home {
 
   .Domains {
+    max-width: 1200px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   .Domain {
+    cursor: pointer;
     text-align: center;
     padding: 8px;
     min-height: 159px;
@@ -22,6 +25,15 @@ page-home {
   .Domain__title {
     color: #fff;
     font-size: 1.7rem;
+  }
+
+  @media (min-width: 768px) {
+    .Domains {
+      margin: 30px auto;
+      grid-template-columns: repeat(3, 200px);
+      grid-gap: 20px;
+      justify-content: center;
+    }
   }
 }
 

@@ -39,4 +39,33 @@ page-domain {
   .Domain__section-title {
     font-size: 1.6rem;
   }
+
+  @media (min-width: 768px) {
+    ion-list {
+      max-width: 660px;
+      margin: auto !important;
+    }
+    .Domain {
+      padding: 20px;
+    }
+
+    // Icon on top of page
+    .Domain__icon {
+      font-size: 5.2rem;
+    }
+
+    .Domain__title {
+      font-size: 3.5rem;
+    }
+
+    .Domain__section-number {
+      font-size: 1.5rem;
+    }
+
+    .Domain__section-title {
+      font-size: 2.0rem;
+    }
+  }
+
+
 }

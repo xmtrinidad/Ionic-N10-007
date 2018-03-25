@@ -1,7 +1,6 @@
 page-home {
   .Header {
     text-align: center;
-    background: #607D8B;
     padding-bottom: 12px;
   }
 
@@ -13,5 +12,11 @@ page-home {
     padding: 0;
     margin: 0;
     color: #fff;
+  }
+
+  @media (min-width: 768px) {
+    .Header {
+
+    }
   }
 }
