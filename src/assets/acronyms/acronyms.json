@@ -1,0 +1,1306 @@
+[
+  {
+    "acronym": "AAA",
+    "full": "Authentication Authorization and Accounting"
+  },
+  {
+    "acronym": "AAAA",
+    "full": "Authentication, Authorization, Accounting and Auditing"
+  },
+  {
+    "acronym": "ACL",
+    "full": "Access Control List"
+  },
+  {
+    "acronym": "ADSL",
+    "full": "Asymmetric Digital Subscriber Line"
+  },
+  {
+    "acronym": "AES",
+    "full": "Advanced Encryption Standard"
+  },
+  {
+    "acronym": "AH",
+    "full": "Authentication Header"
+  },
+  {
+    "acronym": "AP",
+    "full": "Access Point"
+  },
+  {
+    "acronym": "APC",
+    "full": "Angle Polished Connector"
+  },
+  {
+    "acronym": "APIPA",
+    "full": "Automatic Private Internet Protocol Addressing"
+  },
+  {
+    "acronym": "APT",
+    "full": "Advanced Persistent Tool"
+  },
+  {
+    "acronym": "ARIN",
+    "full": "American Registry for Internet Numbers"
+  },
+  {
+    "acronym": "ARP",
+    "full": "Address Resolution Protocol"
+  },
+  {
+    "acronym": "AS",
+    "full": "Autonomous System"
+  },
+  {
+    "acronym": "ASIC",
+    "full": "Application Specific Integrated Circuit"
+  },
+  {
+    "acronym": "ASP",
+    "full": "Application Service Provider"
+  },
+  {
+    "acronym": "ATM",
+    "full": "Asynchronous Transfer Mode"
+  },
+  {
+    "acronym": "AUP",
+    "full": "Acceptable Use Policy"
+  },
+  {
+    "acronym": "BCP",
+    "full": "Business Continuity Plan"
+  },
+  {
+    "acronym": "BERT",
+    "full": "Bit-Error Rate Test"
+  },
+  {
+    "acronym": "BGP",
+    "full": "Border Gateway Protocol"
+  },
+  {
+    "acronym": "BLE",
+    "full": "Bluetooth Low Energy"
+  },
+  {
+    "acronym": "BNC",
+    "full": "British Naval Connector/Bayonet Niell-Concelman"
+  },
+  {
+    "acronym": "BootP",
+    "full": "Boot Protocol/Bootstrap Protocol"
+  },
+  {
+    "acronym": "BPDU",
+    "full": "Bridge Protocol Data Unit"
+  },
+  {
+    "acronym": "BRI",
+    "full": "Basic Rate Interface"
+  },
+  {
+    "acronym": "BSSID",
+    "full": "Basic Service Set Identifier"
+  },
+  {
+    "acronym": "BYOD",
+    "full": "Bring Your Own Device"
+  },
+  {
+    "acronym": "CaaS",
+    "full": "Communication as a Service"
+  },
+  {
+    "acronym": "CAM",
+    "full": "Content Addressable Memory"
+  },
+  {
+    "acronym": "CAN",
+    "full": "Campus Area Network"
+  },
+  {
+    "acronym": "CARP",
+    "full": "Common Address Redundancy Protocol"
+  },
+  {
+    "acronym": "CASB",
+    "full": "Cloud Access Security Broker"
+  },
+  {
+    "acronym": "CAT",
+    "full": "Category"
+  },
+  {
+    "acronym": "CCTV",
+    "full": "Closed Circuit TV"
+  },
+  {
+    "acronym": "CDMA",
+    "full": "Code Division Multiple Access"
+  },
+  {
+    "acronym": "CSMA/CD",
+    "full": "Carrier Sense Multiple Access/Collision Detection"
+  },
+  {
+    "acronym": "CHAP",
+    "full": "Challenge Handshake Authentication Protocol"
+  },
+  {
+    "acronym": "CIDR",
+    "full": "Classless Inter-Domain Routing"
+  },
+  {
+    "acronym": "CNAME",
+    "full": "Canonical Name"
+  },
+  {
+    "acronym": "CoS",
+    "full": "Class of Service"
+  },
+  {
+    "acronym": "CPU",
+    "full": "Central Processing Unit"
+  },
+  {
+    "acronym": "CRAM-MD5",
+    "full": "Challenge-Response Authentication Mechanism–Message Digest 5"
+  },
+  {
+    "acronym": "CRC",
+    "full": "Cyclic Redundancy Checking"
+  },
+  {
+    "acronym": "CSMA/CA",
+    "full": "Carrier Sense Multiple Access/Collision Avoidance"
+  },
+  {
+    "acronym": "CSU",
+    "full": "Channel Service Unit"
+  },
+  {
+    "acronym": "CVW",
+    "full": "Collaborative Virtual Workspace"
+  },
+  {
+    "acronym": "CWDM",
+    "full": "Course Wave Division Multiplexing"
+  },
+  {
+    "acronym": "Daas",
+    "full": "Desktop as a Service"
+  },
+  {
+    "acronym": "dB",
+    "full": "Decibel"
+  },
+  {
+    "acronym": "DCS",
+    "full": "Distributed Computer System"
+  },
+  {
+    "acronym": "DDoS",
+    "full": "Distributed Denial of Service"
+  },
+  {
+    "acronym": "DHCP",
+    "full": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "acronym": "DLC",
+    "full": "Data Link Control"
+  },
+  {
+    "acronym": "DLP",
+    "full": "Data Loss Prevention"
+  },
+  {
+    "acronym": "DLR",
+    "full": "Device Level Ring"
+  },
+  {
+    "acronym": "DMZ",
+    "full": "Demilitarized Zone"
+  },
+  {
+    "acronym": "DNAT",
+    "full": "Destination Network Address Translation"
+  },
+  {
+    "acronym": "DNS",
+    "full": "Domain Name System"
+  },
+  {
+    "acronym": "DOCSIS",
+    "full": "Data-Over-Cable Service Interface Specification"
+  },
+  {
+    "acronym": "DoS",
+    "full": "Denial of Service"
+  },
+  {
+    "acronym": "DR",
+    "full": "Designated Router"
+  },
+  {
+    "acronym": "DSCP",
+    "full": "Differentiated Services Code Point"
+  },
+  {
+    "acronym": "DSL",
+    "full": "Digital Subscriber Line"
+  },
+  {
+    "acronym": "DSSS",
+    "full": "Direct Sequence Spread Spectrum"
+  },
+  {
+    "acronym": "DSU",
+    "full": "Data Service Unit"
+  },
+  {
+    "acronym": "DWDM",
+    "full": "Dense Wavelength Division Multiplexing"
+  },
+  {
+    "acronym": "E1",
+    "full": "E-Carrier Level 1"
+  },
+  {
+    "acronym": "EAP",
+    "full": "Extensible Authentication Protocol"
+  },
+  {
+    "acronym": "EDNS",
+    "full": "Extension Mechanisms for DNS"
+  },
+  {
+    "acronym": "EGP",
+    "full": "Exterior Gateway Protocol"
+  },
+  {
+    "acronym": "EIA",
+    "full": "Electronic Industries Alliance"
+  },
+  {
+    "acronym": "TIA",
+    "full": "Telecommunication Industries Association"
+  },
+  {
+    "acronym": "EMI",
+    "full": "Electromagnetic Interference"
+  },
+  {
+    "acronym": "ESD",
+    "full": "Electrostatic Discharge"
+  },
+  {
+    "acronym": "ESP",
+    "full": "Encapsulated Security Payload"
+  },
+  {
+    "acronym": "ESSID",
+    "full": "Extended  Service Set Identifier"
+  },
+  {
+    "acronym": "EUI",
+    "full": "Extended Unique Identifier"
+  },
+  {
+    "acronym": "FC",
+    "full": "Fibre Channel"
+  },
+  {
+    "acronym": "FCoE",
+    "full": "Fibre Channel over Ethernet"
+  },
+  {
+    "acronym": "FCS",
+    "full": "Frame Check Sequence"
+  },
+  {
+    "acronym": "FDM",
+    "full": "Frequency Division Multiplexing"
+  },
+  {
+    "acronym": "FHSS",
+    "full": "Frequency Hopping Spread Spectrum"
+  },
+  {
+    "acronym": "FM",
+    "full": "Frequency Modulation"
+  },
+  {
+    "acronym": "FQDN",
+    "full": "Fully Qualified Domain Name"
+  },
+  {
+    "acronym": "FTP",
+    "full": "File Transfer Protocol"
+  },
+  {
+    "acronym": "FTPS",
+    "full": "File Transfer Protocol Security"
+  },
+  {
+    "acronym": "GBIC",
+    "full": "Gigabit Interface Converter"
+  },
+  {
+    "acronym": "Gbps",
+    "full": "Gigabits per second"
+  },
+  {
+    "acronym": "GLBP",
+    "full": "Gateway Load Balancing Protocol"
+  },
+  {
+    "acronym": "GPG",
+    "full": "GNU Privacy Guard"
+  },
+  {
+    "acronym": "GRE",
+    "full": "Generic Routing Encapsulation"
+  },
+  {
+    "acronym": "GSM",
+    "full": "Global System for Mobile Communications"
+  },
+  {
+    "acronym": "HA",
+    "full": "High Availability"
+  },
+  {
+    "acronym": "HDLC",
+    "full": "High-Level Data Link Control"
+  },
+  {
+    "acronym": "HDMI",
+    "full": "High-Definition Multimedia Interface"
+  },
+  {
+    "acronym": "HIDS",
+    "full": "Host Intrusion Detection System"
+  },
+  {
+    "acronym": "HIPS",
+    "full": "Host Intrusion Prevention System"
+  },
+  {
+    "acronym": "HSPA",
+    "full": "High-Speed Packet Access"
+  },
+  {
+    "acronym": "HSRP",
+    "full": "Hot Standby Router Protocol"
+  },
+  {
+    "acronym": "HT",
+    "full": "High Throughput"
+  },
+  {
+    "acronym": "HTTP",
+    "full": "Hypertext Transfer Protocol"
+  },
+  {
+    "acronym": "HTTPS",
+    "full": "Hypertext Transfer Protocol Secure"
+  },
+  {
+    "acronym": "HVAC",
+    "full": "Heating, Ventilation and Air Conditioning"
+  },
+  {
+    "acronym": "Hz",
+    "full": "Hertz"
+  },
+  {
+    "acronym": "IaaS",
+    "full": "Infrastructure as a Service"
+  },
+  {
+    "acronym": "IANA",
+    "full": "Internet Assigned Numbers Authority"
+  },
+  {
+    "acronym": "ICA",
+    "full": "Independent Computer Architecture"
+  },
+  {
+    "acronym": "ICANN",
+    "full": "Internet Corporation for Assigned Names and Numbers"
+  },
+  {
+    "acronym": "ICMP",
+    "full": "Internet Control Message Protocol"
+  },
+  {
+    "acronym": "ICS",
+    "full": "Internet Connection Sharing/Industrial Control System"
+  },
+  {
+    "acronym": "IDF",
+    "full": "Intermediate Distribution Frame"
+  },
+  {
+    "acronym": "IDS",
+    "full": "Intrusion Detection System"
+  },
+  {
+    "acronym": "IEEE",
+    "full": "Institute of Electrical and Electronics Engineers"
+  },
+  {
+    "acronym": "IGMP",
+    "full": "Internet Group Message Protocol"
+  },
+  {
+    "acronym": "IGP",
+    "full": "Interior Gateway Protocol"
+  },
+  {
+    "acronym": "IGRP",
+    "full": "Interior Gateway Routing Protocol"
+  },
+  {
+    "acronym": "IKE",
+    "full": "Internet Key Exchange"
+  },
+  {
+    "acronym": "IMAP4",
+    "full": "Internet Message Access Protocol version 4"
+  },
+  {
+    "acronym": "InterNIC",
+    "full": "Internet Network Information Center"
+  },
+  {
+    "acronym": "IoT",
+    "full": "Internet of Things"
+  },
+  {
+    "acronym": "IP",
+    "full": "Internet Protocol"
+  },
+  {
+    "acronym": "IPS",
+    "full": "Intrusion Prevention System"
+  },
+  {
+    "acronym": "IPSec",
+    "full": "Internet Protocol Security"
+  },
+  {
+    "acronym": "IPv4",
+    "full": "Internet Protocol version 4"
+  },
+  {
+    "acronym": "IPv6",
+    "full": "Internet Protocol version 6"
+  },
+  {
+    "acronym": "ISAKMP",
+    "full": "Internet Security Association and Key Management Protocol"
+  },
+  {
+    "acronym": "ISDN",
+    "full": "Integrated Services Digital Network"
+  },
+  {
+    "acronym": "IS-IS",
+    "full": "Intermediate System to Intermediate System"
+  },
+  {
+    "acronym": "ISP",
+    "full": "Internet Service Provider"
+  },
+  {
+    "acronym": "IT",
+    "full": "Information Technology"
+  },
+  {
+    "acronym": "ITS",
+    "full": "Intelligent Transportation System"
+  },
+  {
+    "acronym": "IV",
+    "full": "Initialization Vector"
+  },
+  {
+    "acronym": "Kbps",
+    "full": "Kilobits per second"
+  },
+  {
+    "acronym": "KVM",
+    "full": "Keyboard Video Mouse"
+  },
+  {
+    "acronym": "L2TP",
+    "full": "Layer 2 Tunneling Protocol"
+  },
+  {
+    "acronym": "LACP",
+    "full": "Link Aggregation Control Protocol"
+  },
+  {
+    "acronym": "LAN",
+    "full": "Local Area Network"
+  },
+  {
+    "acronym": "LC",
+    "full": "Local Connector"
+  },
+  {
+    "acronym": "LDAP",
+    "full": "Lightweight Directory Access Protocol"
+  },
+  {
+    "acronym": "LEC",
+    "full": "Local Exchange Carrier"
+  },
+  {
+    "acronym": "LED",
+    "full": "Light Emitting Diode"
+  },
+  {
+    "acronym": "LLC",
+    "full": "Logical Link Control"
+  },
+  {
+    "acronym": "LLDP",
+    "full": "Link Layer Discovery Protocol"
+  },
+  {
+    "acronym": "LSA",
+    "full": "Link State Advertisements"
+  },
+  {
+    "acronym": "LTE",
+    "full": "Long Term Evolution"
+  },
+  {
+    "acronym": "LWAPP",
+    "full": "Light Weight Access Point Protocol"
+  },
+  {
+    "acronym": "MaaS",
+    "full": "Mobility as a Service"
+  },
+  {
+    "acronym": "MAC",
+    "full": "Media Access Control/Medium Access Control"
+  },
+  {
+    "acronym": "MAN",
+    "full": "Metropolitan Area Network"
+  },
+  {
+    "acronym": "Mbps",
+    "full": "Megabits per second"
+  },
+  {
+    "acronym": "MBps",
+    "full": "Megabytes per second"
+  },
+  {
+    "acronym": "MDF",
+    "full": "Main Distribution Frame"
+  },
+  {
+    "acronym": "MDI",
+    "full": "Media Dependent Interface"
+  },
+  {
+    "acronym": "MDIX",
+    "full": "Media Dependent Interface Crossover"
+  },
+  {
+    "acronym": "MGCP",
+    "full": "Media Gateway Control Protocol"
+  },
+  {
+    "acronym": "MIB",
+    "full": "Management Information Base"
+  },
+  {
+    "acronym": "MIMO",
+    "full": "Multiple Input, Multiple Output"
+  },
+  {
+    "acronym": "MLA",
+    "full": "Master License Agreement"
+  },
+  {
+    "acronym": "MMF",
+    "full": "Multimode Fiber"
+  },
+  {
+    "acronym": "MOA",
+    "full": "Memorandum of Agreement"
+  },
+  {
+    "acronym": "MOU",
+    "full": "Memorandum of Understanding"
+  },
+  {
+    "acronym": "MPLS",
+    "full": "Multiprotocol Label Switching"
+  },
+  {
+    "acronym": "MS-CHAP",
+    "full": "Microsoft Challenge Handshake Authentication Protocol"
+  },
+  {
+    "acronym": "MSA",
+    "full": "Master Service Agreement"
+  },
+  {
+    "acronym": "MSDS",
+    "full": "Material Safety Data Sheet"
+  },
+  {
+    "acronym": "MT-RJ",
+    "full": "Mechanical Transfer-Registered Jack"
+  },
+  {
+    "acronym": "MTU",
+    "full": "Maximum Transmission Unit"
+  },
+  {
+    "acronym": "MTTR",
+    "full": "Mean Time To Recovery"
+  },
+  {
+    "acronym": "MTBF",
+    "full": "Mean Time Between Failures"
+  },
+  {
+    "acronym": "MU-MIMO",
+    "full": "Multiuser Multiple Input, Multiple Output"
+  },
+  {
+    "acronym": "MX",
+    "full": "Mail Exchanger"
+  },
+  {
+    "acronym": "NAC",
+    "full": "Network Access Control"
+  },
+  {
+    "acronym": "NAS",
+    "full": "Network Attached Storage"
+  },
+  {
+    "acronym": "NAT",
+    "full": "Network Address Translation"
+  },
+  {
+    "acronym": "NCP",
+    "full": "Network Control Protocol"
+  },
+  {
+    "acronym": "NDR",
+    "full": "Non-Delivery Receipt"
+  },
+  {
+    "acronym": "NetBEUI",
+    "full": "Network Basic Input/Output Extended User Interface"
+  },
+  {
+    "acronym": "NetBIOS",
+    "full": "Network Basic Input/Output System"
+  },
+  {
+    "acronym": "NFC",
+    "full": "Near Field Communication"
+  },
+  {
+    "acronym": "NFS",
+    "full": "Network File Service"
+  },
+  {
+    "acronym": "NGFW",
+    "full": "Next-Generation Firewall"
+  },
+  {
+    "acronym": "NIC",
+    "full": "Network Interface Card"
+  },
+  {
+    "acronym": "NIDS",
+    "full": "Network Intrusion Detection System"
+  },
+  {
+    "acronym": "NIPS",
+    "full": "Network Intrusion Prevention System"
+  },
+  {
+    "acronym": "NIU",
+    "full": "Network Interface Unit"
+  },
+  {
+    "acronym": "nm",
+    "full": "Nanometer"
+  },
+  {
+    "acronym": "NNTP",
+    "full": "Network News Transport Protocol"
+  },
+  {
+    "acronym": "NTP",
+    "full": "Network Time Protocol"
+  },
+  {
+    "acronym": "OCSP",
+    "full": "Online Certificate Status Protocol"
+  },
+  {
+    "acronym": "OCx",
+    "full": "Optical Carrier"
+  },
+  {
+    "acronym": "OS",
+    "full": "Operating System"
+  },
+  {
+    "acronym": "OSI",
+    "full": "Open Systems Interconnect"
+  },
+  {
+    "acronym": "OSPF",
+    "full": "Open Shortest Path First"
+  },
+  {
+    "acronym": "OTDR",
+    "full": "Optical Time Domain Reflectometer"
+  },
+  {
+    "acronym": "OUI",
+    "full": "Organizationally Unique Identifier"
+  },
+  {
+    "acronym": "PaaS",
+    "full": "Platform as a Service"
+  },
+  {
+    "acronym": "PAN",
+    "full": "Personal Area Network"
+  },
+  {
+    "acronym": "PAP",
+    "full": "Password Authentication Protocol"
+  },
+  {
+    "acronym": "PAT",
+    "full": "Port Address Translation"
+  },
+  {
+    "acronym": "PC",
+    "full": "Personal Computer"
+  },
+  {
+    "acronym": "PCM",
+    "full": "Phase-Change Memory"
+  },
+  {
+    "acronym": "PDoS",
+    "full": "Permanent Denial of Service"
+  },
+  {
+    "acronym": "PDU",
+    "full": "Protocol Data Unit"
+  },
+  {
+    "acronym": "PGP",
+    "full": "Pretty Good Privacy"
+  },
+  {
+    "acronym": "PKI",
+    "full": "Public Key Infrastructure"
+  },
+  {
+    "acronym": "PoE",
+    "full": "Power over Ethernet"
+  },
+  {
+    "acronym": "POP",
+    "full": "Post Office Protocol"
+  },
+  {
+    "acronym": "POP3",
+    "full": "Post Office Protocol version 3"
+  },
+  {
+    "acronym": "POTS",
+    "full": "Plain Old Telephone Service"
+  },
+  {
+    "acronym": "PPP",
+    "full": "Point-to-Point Protocol"
+  },
+  {
+    "acronym": "PPPoE",
+    "full": "Point-to-Point Protocol over Ethernet"
+  },
+  {
+    "acronym": "PPTP",
+    "full": "Point-to-Point Tunneling Protocol"
+  },
+  {
+    "acronym": "PRI",
+    "full": "Primary Rate Interface"
+  },
+  {
+    "acronym": "PSK",
+    "full": "Pre-Shared Key"
+  },
+  {
+    "acronym": "PSTN",
+    "full": "Public Switched Telephone Network"
+  },
+  {
+    "acronym": "PTP",
+    "full": "Point-to-Point"
+  },
+  {
+    "acronym": "PTR",
+    "full": "Pointer"
+  },
+  {
+    "acronym": "PUA",
+    "full": "Privileged User Agreement"
+  },
+  {
+    "acronym": "PVC",
+    "full": "Permanent Virtual Circuit"
+  },
+  {
+    "acronym": "QoS",
+    "full": "Quality of Service"
+  },
+  {
+    "acronym": "QSFP",
+    "full": "Quad Small Form-Factor Pluggable"
+  },
+  {
+    "acronym": "RADIUS",
+    "full": "Remote Authentication Dial-In User Service"
+  },
+  {
+    "acronym": "RARP",
+    "full": "Reverse Address Resolution Protocol"
+  },
+  {
+    "acronym": "RAS",
+    "full": "Remote Access Service"
+  },
+  {
+    "acronym": "RDP",
+    "full": "Remote Desktop Protocol"
+  },
+  {
+    "acronym": "RF",
+    "full": "Radio Frequency"
+  },
+  {
+    "acronym": "RFI",
+    "full": "Radio Frequency Interference"
+  },
+  {
+    "acronym": "RFP",
+    "full": "Request for Proposal"
+  },
+  {
+    "acronym": "RG",
+    "full": "Radio Guide"
+  },
+  {
+    "acronym": "RIP",
+    "full": "Routing Internet Protocol"
+  },
+  {
+    "acronym": "RJ",
+    "full": "Registered Jack"
+  },
+  {
+    "acronym": "RPO",
+    "full": "Recovery Point Objective"
+  },
+  {
+    "acronym": "RSA",
+    "full": "Rivest, Shamir, Adelman"
+  },
+  {
+    "acronym": "RSH",
+    "full": "Remote Shell"
+  },
+  {
+    "acronym": "RSTP",
+    "full": "Rapid Spanning Tree Protocol"
+  },
+  {
+    "acronym": "RTO",
+    "full": "Recovery Time Objective"
+  },
+  {
+    "acronym": "RTP",
+    "full": "Real-Time Protocol"
+  },
+  {
+    "acronym": "RTSP",
+    "full": "Real-Time Streaming Protocol"
+  },
+  {
+    "acronym": "RTT",
+    "full": "Round Trip Time or Real Transfer Time"
+  },
+  {
+    "acronym": "SA",
+    "full": "Security Association"
+  },
+  {
+    "acronym": "SaaS",
+    "full": "Software as a Service"
+  },
+  {
+    "acronym": "SC",
+    "full": "Standard Connector/Subscriber Connector"
+  },
+  {
+    "acronym": "SCADA",
+    "full": "Supervisory Control and Data Acquisition"
+  },
+  {
+    "acronym": "SCP",
+    "full": "Secure Copy Protocol"
+  },
+  {
+    "acronym": "SDLC",
+    "full": "Software Development Life Cycle"
+  },
+  {
+    "acronym": "SDN",
+    "full": "Software Defined Network"
+  },
+  {
+    "acronym": "SDP",
+    "full": "Session Description Protocol"
+  },
+  {
+    "acronym": "SDSL",
+    "full": "Symmetrical Digital Subscriber Line"
+  },
+  {
+    "acronym": "SFP",
+    "full": "Small Form-factor Pluggable"
+  },
+  {
+    "acronym": "SFTP",
+    "full": "Secure File Transfer Protocol"
+  },
+  {
+    "acronym": "SGCP",
+    "full": "Simple Gateway Control Protocol"
+  },
+  {
+    "acronym": "SHA",
+    "full": "Secure Hash Algorithm"
+  },
+  {
+    "acronym": "SIEM",
+    "full": "Security Information and Event Management"
+  },
+  {
+    "acronym": "SIP",
+    "full": "Session Initiation Protocol"
+  },
+  {
+    "acronym": "SLA",
+    "full": "Service Level Agreement"
+  },
+  {
+    "acronym": "SLAAC",
+    "full": "Stateless Address Auto Configuration"
+  },
+  {
+    "acronym": "SLIP",
+    "full": "Serial Line Internet Protocol"
+  },
+  {
+    "acronym": "SMB",
+    "full": "Server Message Block"
+  },
+  {
+    "acronym": "SMF",
+    "full": "Single-Mode Fiber"
+  },
+  {
+    "acronym": "SMS",
+    "full": "Short Message Service"
+  },
+  {
+    "acronym": "SMTP",
+    "full": "Simple Mail Transfer Protocol"
+  },
+  {
+    "acronym": "SNAT",
+    "full": "Static Network Address Translation"
+  },
+  {
+    "acronym": "SNMP",
+    "full": "Simple Network Management Protocol"
+  },
+  {
+    "acronym": "SNTP",
+    "full": "Simple Network Time Protocol"
+  },
+  {
+    "acronym": "SOA",
+    "full": "Start of Authority"
+  },
+  {
+    "acronym": "SOHO",
+    "full": "Small Office Home Office"
+  },
+  {
+    "acronym": "SONET",
+    "full": "Synchronous Optical Network"
+  },
+  {
+    "acronym": "SOP",
+    "full": "Standard Operating Procedure"
+  },
+  {
+    "acronym": "SOW",
+    "full": "Statement of Work"
+  },
+  {
+    "acronym": "SPB",
+    "full": "Shortest Path Bridging"
+  },
+  {
+    "acronym": "SPI",
+    "full": "Stateful Packet Inspection"
+  },
+  {
+    "acronym": "SPS",
+    "full": "Standby Power Supply"
+  },
+  {
+    "acronym": "SSH",
+    "full": "Secure Shell"
+  },
+  {
+    "acronym": "SSID",
+    "full": "Service Set Identifier"
+  },
+  {
+    "acronym": "SSL",
+    "full": "Secure Sockets Layer"
+  },
+  {
+    "acronym": "ST",
+    "full": "Straight Tip or Snap Twist"
+  },
+  {
+    "acronym": "STP",
+    "full": "Spanning Tree Protocol/Shielded Twisted Pair"
+  },
+  {
+    "acronym": "SVC",
+    "full": "Switched Virtual Circuit"
+  },
+  {
+    "acronym": "SYSLOG",
+    "full": "System Log"
+  },
+  {
+    "acronym": "T1",
+    "full": "Terrestrial Carrier Level 1"
+  },
+  {
+    "acronym": "TA",
+    "full": "Terminal Adaptor"
+  },
+  {
+    "acronym": "TACACS",
+    "full": "Terminal Access Control Access Control System"
+  },
+  {
+    "acronym": "TACACS+",
+    "full": "Terminal Access Control Access Control System+"
+  },
+  {
+    "acronym": "TCP",
+    "full": "Transmission Control Protocol"
+  },
+  {
+    "acronym": "TCP/IP",
+    "full": "Transmission Control Protocol/Internet Protocol"
+  },
+  {
+    "acronym": "TDM",
+    "full": "Time Division Multiplexing"
+  },
+  {
+    "acronym": "TDR",
+    "full": "Time Domain Reflectometer"
+  },
+  {
+    "acronym": "Telco",
+    "full": "Telecommunications Company"
+  },
+  {
+    "acronym": "TFTP",
+    "full": "Trivial File Transfer Protocol"
+  },
+  {
+    "acronym": "TKIP",
+    "full": "Temporal Key Integrity Protocol"
+  },
+  {
+    "acronym": "TLS",
+    "full": "Transport Layer Security"
+  },
+  {
+    "acronym": "TMS",
+    "full": "Transportation Management System"
+  },
+  {
+    "acronym": "TOS",
+    "full": "Type of Service"
+  },
+  {
+    "acronym": "TPM",
+    "full": "Trusted Platform Module"
+  },
+  {
+    "acronym": "TTL",
+    "full": "Time to Live"
+  },
+  {
+    "acronym": "TTLS",
+    "full": "Tunneled Transport Layer Security"
+  },
+  {
+    "acronym": "UC",
+    "full": "Unified Communications"
+  },
+  {
+    "acronym": "UDP",
+    "full": "User Datagram Protocol"
+  },
+  {
+    "acronym": "UNC",
+    "full": "Universal Naming Convention"
+  },
+  {
+    "acronym": "UPC",
+    "full": "Ultra Polished Connector"
+  },
+  {
+    "acronym": "UPS",
+    "full": "Uninterruptible Power Supply"
+  },
+  {
+    "acronym": "URL",
+    "full": "Uniform Resource Locator"
+  },
+  {
+    "acronym": "USB",
+    "full": "Universal Serial Bus"
+  },
+  {
+    "acronym": "UTM",
+    "full": "Unified Threat Management"
+  },
+  {
+    "acronym": "UTP",
+    "full": "Unshielded Twisted Pair"
+  },
+  {
+    "acronym": "VDSL",
+    "full": "Variable Digital Subscriber Line"
+  },
+  {
+    "acronym": "VLAN",
+    "full": "Virtual Local Area Network"
+  },
+  {
+    "acronym": "VNC",
+    "full": "Virtual Network Connection"
+  },
+  {
+    "acronym": "VoIP",
+    "full": "Voice over IP"
+  },
+  {
+    "acronym": "VPN",
+    "full": "Virtual Private Network"
+  },
+  {
+    "acronym": "VRF",
+    "full": "Virtual Routing Forwarding"
+  },
+  {
+    "acronym": "VRRP",
+    "full": "Virtual Router Redundancy Protocol"
+  },
+  {
+    "acronym": "VTC",
+    "full": "Video Teleconference"
+  },
+  {
+    "acronym": "VTP",
+    "full": "VLAN Trunk Protocol"
+  },
+  {
+    "acronym": "WAF",
+    "full": "Web Application Firewall"
+  },
+  {
+    "acronym": "WAN",
+    "full": "Wide Area Network"
+  },
+  {
+    "acronym": "WAP",
+    "full": "Wireless Access Point"
+  },
+  {
+    "acronym": "WEP",
+    "full": "Wired Equivalent Privacy"
+  },
+  {
+    "acronym": "WLAN",
+    "full": "Wireless Local Area Network"
+  },
+  {
+    "acronym": "WMS",
+    "full": "Warehouse Management System"
+  },
+  {
+    "acronym": "WPA",
+    "full": "WiFi Protected Access"
+  },
+  {
+    "acronym": "WPS",
+    "full": "WiFi Protected Setup"
+  },
+  {
+    "acronym": "WWN",
+    "full": "World Wide Name"
+  },
+  {
+    "acronym": "XDSL",
+    "full": "Extended Digital Subscriber Line"
+  },
+  {
+    "acronym": "XML",
+    "full": "eXtensible Markup Language"
+  },
+  {
+    "acronym": "Zeroconf",
+    "full": "Zero Configuration"
+  }
+]

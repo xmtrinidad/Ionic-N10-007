@@ -5,34 +5,50 @@ page-home {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 100%;
   }
 
   .Domain {
     cursor: pointer;
     text-align: center;
     padding: 8px;
-    min-height: 159px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   .Domain__icon {
-    font-size: 4.5rem;
+    font-size: 4.6rem;
     color: #fff;
   }
 
   .Domain__title {
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 1.75rem;
   }
 
+  /** iPhone 5 -- Make icon and text smaller to resolve spacing issue **/
+  @media screen and (device-aspect-ratio: 40/71) {
+    .Domain__title {
+      font-size: 1.5rem;
+    }
+    .Domain__icon {
+      font-size: 4.0rem;
+    }
+  }
+
+  /** Desktop starts here **/
   @media (min-width: 768px) {
     .Domains {
       margin: 30px auto;
       grid-template-columns: repeat(3, 200px);
       grid-gap: 20px;
       justify-content: center;
+      height: auto;
+    }
+
+    .Domain {
+      min-height: 170px;
     }
   }
 }

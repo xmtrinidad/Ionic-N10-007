@@ -8,7 +8,7 @@ export class AcronymService {
   constructor(private http: HttpClient) { }
 
   getAcronyms() {
-    return this.http.get('assets/acronyms/acronym-list.txt', {responseType: 'text'});
+    return this.http.get('assets/acronyms/acronyms.json', {responseType: 'json'});
   }
 
 }

@@ -1,7 +1,8 @@
 page-objective-detail {
   .Objective-detail {
     display: flex;
-
+    align-items: center;
+    margin: 10px 0 15px 0;
   }
 
   .Objective-detail__number {
@@ -46,6 +47,33 @@ page-objective-detail {
   .bullet-title {
     font-weight: bold;
     font-size: 1.6rem;
+  }
+
+  @media (min-width: 768px) {
+    .Objective-detail {
+      justify-content: center;
+    }
+
+    .Objective-detail__title {
+      font-size: 3.4rem;
+    }
+
+    .Objective-detail__number {
+      font-size: 2rem;
+    }
+
+    .Objective-detail__bullets {
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: 1fr 1fr;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    ion-buttons {
+      max-width: 400px;
+      margin: auto;
+    }
   }
 
 }

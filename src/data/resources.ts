@@ -15,7 +15,6 @@ const DOMAIN_ONE_ONE_RESOURCES: Resource[] = [
     link: 'https://www.youtube.com/watch?v=vp_ZxQ0CTJk'
   },
 ];
-
 const DOMAIN_ONE_TWO_RESOURCES: Resource[] = [
   {
     objectiveNumber: 1.2,
@@ -25,7 +24,6 @@ const DOMAIN_ONE_TWO_RESOURCES: Resource[] = [
     link: 'https://www.youtube.com/watch?v=G7aVKgGUe9c'
   }
 ];
-
 const DOMAIN_ONE_THREE_RESOURCES: Resource[] = [
   {
     objectiveNumber: 1.3,
@@ -137,7 +135,6 @@ const DOMAIN_ONE_THREE_RESOURCES: Resource[] = [
     link: 'https://www.youtube.com/watch?v=EdVOeGDYHCU'
   }
 ];
-
 const DOMAIN_ONE_FOUR_RESOURCES: Resource[] = [
   {
     objectiveNumber: 1.4,
@@ -182,11 +179,76 @@ const DOMAIN_ONE_FOUR_RESOURCES: Resource[] = [
     img: 'https://img.youtube.com/vi/ZxAwQB8TZsM/mqdefault.jpg',
     link: 'https://www.youtube.com/watch?v=ZxAwQB8TZsM'
   },
+  {
+    title: 'Assigning IPv4 Addresses',
+    description: "There are many different ways to configure a device with an IPv4 address. In this video, you’ll learn about DHCP, manual addressing, DHCP reservations, and APIPA.",
+    img: 'https://img.youtube.com/vi/Q0Aq_cYBcR0/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=Q0Aq_cYBcR0'
+  },
+  {
+    title: 'Assigning IPv6 Addresses',
+    description: "The IPv6 addressing of a device has similarities to IPv4, but there are also some significant differences. In this video, you’ll learn about DHCPv6 and how to modify a MAC address for use as a static IP address.",
+    img: 'https://img.youtube.com/vi/lfCFsniHsPk/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=lfCFsniHsPk'
+  },
+];
+const DOMAIN_ONE_FIVE_RESOURCES: Resource[] = [
+  {
+    objectiveNumber: 1.5,
+    title: 'Network Topologies',
+    description: "We often reference our network topologies as standard types, such as star, ring, and mesh. In this video, you’ll learn about physical and logical network documentation using these standard network topologies.",
+    img: 'https://img.youtube.com/vi/4nPnQVaRj4k/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=4nPnQVaRj4k'
+  },
+  {
+    title: 'Common Network Types',
+    description: "We use a number of different network types throughout our day. In this video, you’ll learn about the different network types that are used to get our data across the Internet.",
+    img: 'https://img.youtube.com/vi/GhHIOv3tIcE/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=GhHIOv3tIcE'
+  },
+  {
+    title: 'Internet of Things Topologies',
+    description: "We’re connecting an increasing number of devices to the Internet. These Internet of Things topologies are similar to traditional networks, but there are some important differences when compared to traditional networks. In this video, you’ll learn about some of the more popular IoT topologies, such as Z-Wave, ANT+, NFC, and more.",
+    img: 'https://img.youtube.com/vi/g9F5FauEWL4/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=g9F5FauEWL4'
+  },
+];
+const DOMAIN_ONE_SIX_RESOURCES: Resource[] = [
+  {
+    objectiveNumber: 1.6,
+    title: 'Wireless Standards',
+    description: "There have been many 802.11 wireless standards through the years. In this video, you’ll learn about the differences between 802.11a, 802.11b, 802.11g, 802.11n, and 802.11ac.",
+    img: 'https://img.youtube.com/vi/r3pZ0WYSk9g/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=r3pZ0WYSk9g'
+  },
+  {
+    title: 'Cellular Network Standards',
+    description: "Cellular networks are complex technologies that have been made easy enough for everyone to use. In this video, you’ll learn about GSM, CDMA and LTE cellular technologies.",
+    img: 'https://img.youtube.com/vi/GShWfJH6p2c/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=GShWfJH6p2c'
+  },
+  {
+    title: 'Wireless Network Technologies',
+    description: "802.11 wireless network technologies are many and varied. In this video, you’ll learn about 802.11 frequency use, MIMO, MU-MIMO, power levels, antenna types, and more.",
+    img: 'https://img.youtube.com/vi/eV9Mu3njz_M/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=eV9Mu3njz_M'
+  },
+];
+const DOMAIN_ONE_SEVEN_RESOURCES: Resource[] = [
+  {
+    objectiveNumber: 1.7,
+    title: 'Cloud Services and Delivery Models',
+    description: "The cloud has become an integrated part of today’s networks. In this video, you’ll learn about various cloud delivery models and how to manage cloud security policies.",
+    img: 'https://img.youtube.com/vi/iiUbTb3s1xc/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=iiUbTb3s1xc'
+  },
 ];
 
 const CONCEPTS_RESOURCES: Resource[][] = [
   DOMAIN_ONE_ONE_RESOURCES, DOMAIN_ONE_TWO_RESOURCES,
-  DOMAIN_ONE_THREE_RESOURCES, DOMAIN_ONE_FOUR_RESOURCES
+  DOMAIN_ONE_THREE_RESOURCES, DOMAIN_ONE_FOUR_RESOURCES,
+  DOMAIN_ONE_FIVE_RESOURCES, DOMAIN_ONE_SIX_RESOURCES,
+  DOMAIN_ONE_SEVEN_RESOURCES
 ];
 
 export const RESOURCES: Resource[][] = [

@@ -1,10 +1,13 @@
 page-home {
-  .scroll-content {
-    overflow: hidden;
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
-  ion-navbar {
-    display: flex;
+  domains {
+    flex: 1;
   }
 
 }

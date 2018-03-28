@@ -8,7 +8,7 @@ import { SortPopoverPage } from '../sort-popover/sort-popover';
   templateUrl: 'acronyms.html',
 })
 export class AcronymsPage implements OnInit{
-  acronyms: Acronym[] = [];
+  acronyms: Acronym[];
   sort = 'Ascending';
 
   constructor(
@@ -50,15 +50,9 @@ export class AcronymsPage implements OnInit{
   getAcronymsList() {
     this.acronymService.getAcronyms()
       .subscribe((data: any) => {
-        const splitData = data.split('\n');
-        for (let i = 0; i < splitData.length - 1; i+=2) {
-          const acronym: Acronym = {
-            acronym: splitData[i],
-            full: splitData[i+1]
-          };
-          this.acronyms.push(acronym);
-        }
+        this.acronyms = data;
       });
+
   }
 
 

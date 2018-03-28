@@ -9,10 +9,10 @@ const DOMAIN_ONE_ONE: Bullet = {
     bullets: [
       { title: 'Protocols and ports',
         subBullets: [
-          'SSH 22', 'DNS 53', 'SMTP 25', 'SFTP 22', 'FTP 20, 21', 'TFTP 69', 'TELNET 23',
-          'DHCP 67, 68', 'HTTP 80', 'HTTPS 443', 'SNMP 161', 'RDP 3389', 'NTP 123',
-          'SIP 5060, 5061', 'SMB 445', 'POP 110', 'IMAP 143', 'LDAP 389', 'LDAPS 636',
-          'H.323 1720'
+          'SSH 22, DNS 53, SMTP 25', 'SFTP 22, FTP 20, 21', 'TFTP 69, TELNET 23',
+          'DHCP 67, 68, NTP 123', 'HTTP 80, HTTPS 443', 'SNMP 161, RDP 3389',
+          'SIP 5060, 5061', 'SMB 445, POP 110', 'IMAP 143, LDAP 389',
+          'H.323 1720, LDAPS 636'
         ]
       },
       {
@@ -599,6 +599,9 @@ const SECURITY: Bullet[] = [
   DOMAIN_FOUR_FOUR, DOMAIN_FOUR_FIVE, DOMAIN_FOUR_SIX
 ];
 
+/**
+ * DOMAIN: 5.0 Troubleshooting
+ */
 const DOMAIN_FIVE_ONE: Bullet = {
   objectiveNumber: 5.1,
   bullets: [
