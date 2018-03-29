@@ -3,6 +3,7 @@ import { PopoverController, ToastController } from 'ionic-angular';
 import { AcronymService } from '../../services/acronym.service';
 import { Acronym } from '../../models/acronym';
 import { SortPopoverPage } from '../sort-popover/sort-popover';
+
 @Component({
   selector: 'page-acronyms',
   templateUrl: 'acronyms.html',

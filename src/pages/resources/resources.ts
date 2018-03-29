@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { NavController, NavParams, ViewController } from 'ionic-angular';
 import { Resource } from '../../models/resource';
 
-@IonicPage()
 @Component({
   selector: 'page-resources',
   templateUrl: 'resources.html',
