@@ -1,5 +1,8 @@
 import { Resource } from '../models/resource';
 
+/**
+ * Resources 1.0 - Concepts
+ **/
 const DOMAIN_ONE_ONE_RESOURCES: Resource[] = [
   {
     objectiveNumber: 1.1,
@@ -243,13 +246,47 @@ const DOMAIN_ONE_SEVEN_RESOURCES: Resource[] = [
     link: 'https://www.youtube.com/watch?v=iiUbTb3s1xc'
   },
 ];
-
+const DOMAIN_ONE_EIGHT_RESOURCES: Resource[] = [
+  {
+    objectiveNumber: 1.8,
+    title: 'An Overview of DNS',
+    description: "Domain Name Services provide an important conversion between FQDN and IP address. In this video, you’ll learn about the process that DNS uses to resolve a fully-qualified domain name to an IP address.",
+    img: 'https://img.youtube.com/vi/VqQQMXNhZBM/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=VqQQMXNhZBM'
+  },
+  {
+    title: 'DNS Record Types',
+    description: "DNS uses many different resource record types for network name services. In this video, you’ll learn about the DNS forward lookup file and some of the most common DNS record types.",
+    img: 'https://img.youtube.com/vi/D37RhTJ0ALY/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=D37RhTJ0ALY'
+  },
+  {
+    title: 'DHCP Addressing Overview',
+    description: "We rely on DHCP for the automatic configuration of our network devices. In this video, you’ll learn about the four steps of the DHCP process and how a DHCP relay can provide flexibility with DHCP services.",
+    img: 'https://img.youtube.com/vi/uLJpp8HFNBc/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=uLJpp8HFNBc'
+  },
+  {
+    title: 'Configuring DHCP',
+    description: "There are many options when configuring a DHCP server. In this video, you’ll learn about DHCP scopes, address allocation options, address reservations, and DHCP lease timers.",
+    img: 'https://img.youtube.com/vi/pEDFFH0Y4C4/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=pEDFFH0Y4C4'
+  },
+  {
+    title: 'An Overview of NTP',
+    description: "We rely on NTP to synchronize the clocks on all of our network-connected devices. In this video, you’ll learn about NTP servers, NTP clients, and how to configure NTP options on your workstation.",
+    img: 'https://img.youtube.com/vi/1GtySPUW-XA/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=1GtySPUW-XA'
+  },
+];
 const CONCEPTS_RESOURCES: Resource[][] = [
   DOMAIN_ONE_ONE_RESOURCES, DOMAIN_ONE_TWO_RESOURCES,
   DOMAIN_ONE_THREE_RESOURCES, DOMAIN_ONE_FOUR_RESOURCES,
   DOMAIN_ONE_FIVE_RESOURCES, DOMAIN_ONE_SIX_RESOURCES,
-  DOMAIN_ONE_SEVEN_RESOURCES
+  DOMAIN_ONE_SEVEN_RESOURCES, DOMAIN_ONE_EIGHT_RESOURCES
 ];
+
+
 
 export const RESOURCES: Resource[][] = [
   ...CONCEPTS_RESOURCES
