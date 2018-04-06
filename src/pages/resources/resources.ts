@@ -9,7 +9,7 @@ import { Resource } from '../../models/resource';
 export class ResourcesPage {
 
   resources: Resource[];
-
+  domainTitle: string;
   constructor(
     private viewCtrl: ViewController,
     public navCtrl: NavController,
@@ -18,6 +18,7 @@ export class ResourcesPage {
 
   ionViewDidLoad() {
     this.resources = this.navParams.get('resources');
+    this.domainTitle = this.navParams.get('domain');
   }
 
   onModalClose() {

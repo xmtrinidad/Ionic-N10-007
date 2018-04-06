@@ -286,8 +286,43 @@ const CONCEPTS_RESOURCES: Resource[][] = [
   DOMAIN_ONE_SEVEN_RESOURCES, DOMAIN_ONE_EIGHT_RESOURCES
 ];
 
+/**
+ * Resources 1.0 - Concepts
+ **/
+const DOMAIN_TWO_ONE_RESOURCES: Resource[] = [
+  {
+    objectiveNumber: 2.1,
+    title: 'Copper Cabling',
+    description: 'Copper cables are the foundation of our networks, but not every copper cable is the same. In this video, you’ll learn about unshielded and shielded twisted pair, network cabling standards, and different types of network cabling.',
+    img: 'https://img.youtube.com/vi/v9m6uBaKD2s/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=v9m6uBaKD2s'
+  },
+  {
+    title: 'Copper Connectors',
+    description: 'There are many different ways to connect copper cable to your networking equipment. In this video, you’ll learn about RJ11, RJ45, BNC, DB-9/DB-25, and F connectors.',
+    img: 'https://img.youtube.com/vi/_MF8oQdTCgo/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=_MF8oQdTCgo'
+  },
+  {
+    title: 'Optical Fiber',
+    description: 'Optical fiber operates with very different physics than copper cabling. In this video, you’ll learn about multimode fiber, single-mode fiber, and the difference between UPC and APC connections.',
+    img: 'https://img.youtube.com/vi/_AnY7JMKVCg/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=_AnY7JMKVCg'
+  },
+  {
+    title: 'Optical Fiber Connectors',
+    description: 'The connector types between fiber-connected devices can vary. In this video, you’ll learn about ST, SC, LC, and MT-RJ fiber connectors.',
+    img: 'https://img.youtube.com/vi/WyMNUdi0ZRM/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=WyMNUdi0ZRM'
+  },
+];
+
+const INFRASTRUCTURE_RESOURCES: Resource[][] = [
+  DOMAIN_TWO_ONE_RESOURCES
+];
+
 
 
 export const RESOURCES: Resource[][] = [
-  ...CONCEPTS_RESOURCES
+  ...CONCEPTS_RESOURCES, ...INFRASTRUCTURE_RESOURCES
 ];

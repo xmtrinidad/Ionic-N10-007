@@ -44,7 +44,7 @@ export class ObjectiveDetailPage implements OnInit {
   onResourcesClick() {
     const objective = this.objective.sectionNumber;
     const resources: Resource[] = this.resourceService.getResources(objective);
-    const modal = this.modalCtrl.create(ResourcesPage, {resources: resources});
+    const modal = this.modalCtrl.create(ResourcesPage, {resources: resources, domain: this.domainTitle});
     modal.present();
   }
 }

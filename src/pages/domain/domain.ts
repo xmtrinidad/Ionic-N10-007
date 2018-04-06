@@ -12,6 +12,7 @@ import { ObjectiveDetailPage } from '../objective-detail/objective-detail';
 export class DomainPage implements OnInit{
   domain: Domain;
   section: Section;
+  domainTitle: string;
   objectiveDetailPage = ObjectiveDetailPage;
 
   constructor(
@@ -23,10 +24,14 @@ export class DomainPage implements OnInit{
   ngOnInit() {
     this.domain = this.navParams.data;
     this.section = this.domainServie.getSection(this.domain);
+    this.domainTitle = this.domain.title.slice(4).toLowerCase();
   }
 
   objectiveSelected(objective: Objective, color: string) {
-    const domainTitle = this.domain.title.substr(3);
-    this.navCtrl.push(ObjectiveDetailPage, {domain: domainTitle, objective: objective, color: color});
+    this.navCtrl.push(ObjectiveDetailPage, {domain: this.domainTitle, objective: objective, color: color});
+  }
+
+  getColor() {
+    return this.domainTitle;
   }
 }
