@@ -315,6 +315,30 @@ const DOMAIN_TWO_ONE_RESOURCES: Resource[] = [
     img: 'https://img.youtube.com/vi/WyMNUdi0ZRM/mqdefault.jpg',
     link: 'https://www.youtube.com/watch?v=WyMNUdi0ZRM'
   },
+  {
+    title: 'Copper Termination Standards',
+    description: 'Once you’ve picked your copper cabling, you’ll need to terminate it properly. In this video, you’ll learn about the different standards associated with copper cabling.',
+    img: 'https://img.youtube.com/vi/jaUww4A8LeU/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=jaUww4A8LeU'
+  },
+  {
+    title: 'Network Termination Points',
+    description: 'Most network designs follow similar methods to connect the end stations to the network. In this video, you’ll learn about patch panels, punch-down blocks, patch panels, and fiber distribution panels.',
+    img: 'https://img.youtube.com/vi/QYdYnF-YUG8/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=QYdYnF-YUG8'
+  },
+  {
+    title: 'Network Transceivers',
+    description: 'Transceivers can provide options when connecting infrastructure equipment to the network. In this video, you’ll learn about transceiver technology, duplex and bi-directional transceivers, GBICs, SFP/SFP+, and QSFP transceivers.',
+    img: 'https://img.youtube.com/vi/UTu5bz6qgkw/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=UTu5bz6qgkw'
+  },
+  {
+    title: 'Ethernet Standards',
+    description: 'The IEEE maintains Ethernet standards that apply to many different speeds and media. In this video, you’ll learn about 100BASE-TX, 1000BASE-T, 1000BASE-SX, 1000BASE-LX, and 10GBASE-T standards.',
+    img: 'https://img.youtube.com/vi/X8MofnwqOSI/mqdefault.jpg',
+    link: 'https://www.youtube.com/watch?v=X8MofnwqOSI'
+  },
 ];
 
 const INFRASTRUCTURE_RESOURCES: Resource[][] = [
