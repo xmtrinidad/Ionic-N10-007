@@ -9,7 +9,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content *ngIf="!resources" padding>
+<ion-content *ngIf="resources.length === 0" padding>
   <div class="no-resources" text-center>
     <ion-icon name="archive"></ion-icon>
     <p>No resources currently available</p>
@@ -17,7 +17,7 @@
   <button (click)="viewCtrl.dismiss()" ion-button full>Back to Objective List</button>
 </ion-content>
 
-<ion-content *ngIf="resources" padding>
+<ion-content *ngIf="resources.length > 0" padding>
   <ion-card *ngFor="let resource of resources">
     <img [src]="resource.img"/>
     <ion-card-header>

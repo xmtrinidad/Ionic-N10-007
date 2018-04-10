@@ -1,4 +1,4 @@
 export class Bullet {
-  objectiveNumber: number;
+  objectiveNumber: any;
   bullets: object[];
 }

@@ -1,4 +1,4 @@
 export class Objective {
-  sectionNumber: number;
+  sectionNumber: any;
   title: string;
 }

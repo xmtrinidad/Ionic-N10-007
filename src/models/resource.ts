@@ -1,5 +1,5 @@
 export class Resource {
-  objectiveNumber?: number;
+  objectiveNumber?: any;
   title: string;
   description: string;
   img: string;

@@ -8,7 +8,7 @@ import { Resource } from '../../models/resource';
 })
 export class ResourcesPage {
 
-  resources: Resource[];
+  resources: Resource[] = [];
   domainTitle: string;
   constructor(
     private viewCtrl: ViewController,
@@ -19,6 +19,7 @@ export class ResourcesPage {
   ionViewDidLoad() {
     this.resources = this.navParams.get('resources');
     this.domainTitle = this.navParams.get('domain');
+    console.log(this.resources.length === 0);
   }
 
   onModalClose() {
