@@ -145,7 +145,7 @@ export const RESOURCES: Resource[] = [
   },
   {
     "objectiveNumber": "1.3",
-    "title": "Softwar",
+    "title": "Software-Defined Networking",
     "description": "SDN has changed the way we design and implement services on modern networks. In this video, you’ll get an overview of SDN and how you can use distributed switching to virtualize your network.",
     "img": "https://i.ytimg.com/vi/EdVOeGDYHCU/maxresdefault.jpg",
     "link": "https://www.youtube.com/watch?v=EdVOeGDYHCU"
@@ -408,5 +408,75 @@ export const RESOURCES: Resource[] = [
     "description": "Once a WAN connection has made it’s way across the country or the world, it needs a place to terminate. In this video, you’ll learn about demarcation points, CSU/DSU connectivity, and smartjacks.",
     "img": "https://i.ytimg.com/vi/LYzvM6i14wI/maxresdefault.jpg",
     "link": "https://www.youtube.com/watch?v=LYzvM6i14wI"
+  },
+  {
+    "objectiveNumber": "3.1",
+    "title": "Network Documentation",
+    "description": "If you’re managing a network, having the right documentation can save you both time and money. In this video, you’ll learn about network documentation, change management, cable management, and more.",
+    "img": "https://i.ytimg.com/vi/Q5wv592XxlE/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=Q5wv592XxlE"
+  },
+  {
+    "objectiveNumber": "3.2",
+    "title": "Availability Concepts",
+    "description": "Keeping all of your systems and networks running is one of the most important tasks for a network administrator. In this video, you’ll learn about fault tolerance, redundancy, and high availability.",
+    "img": "https://i.ytimg.com/vi/g36k1zgYuu4/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=g36k1zgYuu4"
+  },
+  {
+    "objectiveNumber": "3.2",
+    "title": "Power Management",
+    "description": "Maintaining a power source is obviously important for maintaining uptime and availability. In this video, you’ll learn about UPS devices, generators, and dual-power supplies.",
+    "img": "https://i.ytimg.com/vi/ujhX3iSJXD8/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=ujhX3iSJXD8"
+  },
+  {
+    "objectiveNumber": "3.2",
+    "title": "Recovery Sites",
+    "description": "When a disaster strikes, you’ll need to establish a new base of operation. In this video, you’ll learn about cold sites, warm sites, and hot sites.",
+    "img": "https://i.ytimg.com/vi/8Y-ykV42R_M/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=8Y-ykV42R_M"
+  },
+  {
+    "objectiveNumber": "3.2",
+    "title": "Backup and Recovery",
+    "description": "Always have a good backup. In this video, you’ll learn about the archive bit, incremental backups, and differential backups.",
+    "img": "https://i.ytimg.com/vi/68hbHE6Zk4g/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=68hbHE6Zk4g"
+  },
+  {
+    "objectiveNumber": "3.3",
+    "title": "Process Monitoring",
+    "description": "There are many different ways to monitor the processes running across your network. In this video, you’ll learn about log management, port scanning, patch management, and much more.",
+    "img": "https://i.ytimg.com/vi/ThXm2qbFIH8/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=ThXm2qbFIH8"
+  },
+  {
+    "objectiveNumber": "3.3",
+    "title": "Event Management",
+    "description": "An important part of network management is the handling of events and alerts. In this video, you’ll learn how to monitor interfaces, gather SNMP statistics, walk a MIB, and much more.",
+    "img": "https://i.ytimg.com/vi/DjDfL3ic5Qo/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=DjDfL3ic5Qo"
+  },
+  {
+    "objectiveNumber": "3.3",
+    "title": "Performance Metrics",
+    "description": "Interface statistics can provide you with information about the overall health of a network connection. In this video, you’ll learn about interface monitoring methods and which interface metrics can provide information about performance and availability.",
+    "img": "https://i.ytimg.com/vi/7jBtOw1-3ow/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=7jBtOw1-3ow"
+  },
+  {
+    "objectiveNumber": "3.4",
+    "title": "Remote Access",
+    "description": "You have many options when accessing devices remotely. In this video, you’ll learn about VPN options, transferring files, managing devices remotely, and more.",
+    "img": "https://i.ytimg.com/vi/34ldGdtlvmk/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=34ldGdtlvmk"
+  },
+  {
+    "objectiveNumber": "3.5",
+    "title": "Policies and Best Practices",
+    "description": "Every organization uses numerous processes and procedures during the normal course of business. In this video, you’ll learn about user agreements, on-boarding, licensing, export controls, and many other policies.",
+    "img": "https://i.ytimg.com/vi/D5ukHdq_JOk/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=D5ukHdq_JOk"
   }
 ];
